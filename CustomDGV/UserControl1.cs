@@ -150,6 +150,7 @@ namespace CustomDGV
         {
             if (popup.Visible)
             {
+                Console.WriteLine("Closing");
                 popup.Close();
             }
             else
